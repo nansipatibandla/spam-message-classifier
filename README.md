@@ -36,12 +36,21 @@ Both models reach precision 1.00 on spam, so no legitimate message was marked as
 
 ## Sample Predictions
 ```
-[paste your predict_proba output lines here]
+NOT SPAM (spam probability: 0.46) <- URGENT! Your account is suspended, call 0906123456
+SPAM (spam probability: 0.98) <- WINNER!! As a valued network customer you have bee
+SPAM (spam probability: 0.83) <- Free entry in 2 a weekly comp to win FA Cup ticket
+NOT SPAM (spam probability: 0.00) <- Hey, are we meeting at 5 today?
+NOT SPAM (spam probability: 0.04) <- Can you send me the notes from class?
 ```
 
 ## Interactive Demo
 ```
-[paste your interactive test output here]
+Type a message to check (or type 'quit' to stop)
+-> NOT SPAM (spam probability: 0.46)
+-> SPAM (spam probability: 0.80)
+-> NOT SPAM (spam probability: 0.04)
+-> SPAM (spam probability: 0.76)
+Done.
 ```
 
 ## Limitations
